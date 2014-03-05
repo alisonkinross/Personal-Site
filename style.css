@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    /*display: inline-block;*/
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+/*____________________________________________________________*/
+
+
+body {
+	background-image: url('images/forestPath.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Ruda', sans-serif;
+	color: white;
+}
+
+.wrapper {
+	max-width: 1000px;
+	background: lightslategray;
+	margin: 50px auto;
+}
+
+.transparent {
+	background:rgba(255,255,255,0.3);
+}
+
+.header {
+	border-bottom: 2px solid gray;
+	margin-bottom: 50px;
+}
+
+.kinrossTech {
+	float: left;
+	max-width: 300px;
+	padding: 10px;
+	padding-top: 20px;
+	margin-left: 10px;
+}
+
+h1 {
+	font-family: 'Quattrocento Sans', sans-serif;	
+	font-size: 40px;
+	padding-top: 5px;
+	color: white;
+}
+
+	.nav {
+		float: right;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+.nav a {
+	text-decoration: none;
+	color: darkslategray;
+	font-family: sans-serif;
+}
+
+.nav a:hover {
+	color: white;
+}
+
+.contact {
+	margin-right: 20px;
+}
+
+.greeting, .title {
+	clear: both;
+	text-align: center;
+}
+
+	h2 {
+		font-size: 25px;
+		padding: 20px;
+		color: white;
+	}
+
+	h3 {
+		text-align: center;
+		padding: 20px;
+		color: white;
+		clear: both;
+		font-size: 25px;
+	}
+
+	h4 {
+		color: white;
+		margin-bottom: 50px;
+	}
+
+.background {
+	display: block;
+	max-width: 800px;
+	margin: 0 100px;
+	padding: 20px 0;
+	padding-bottom: 50px;
+	border-bottom: 2px solid gray;
+}
+
+.display {
+	display: block;
+	float: left;
+	width: 20%;
+	height: 200px;
+}
+
+.display img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+.display1 {
+	clear: both;
+}
+
+.row1 {
+	margin-top: 20px;
+}
+
+.row2 {
+	margin-bottom: 20px;
+}
+
+.about2 {
+	margin: 50px auto;
+	width: 80%;
+	clear: both;
+}
+
+.about2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.about2 a:hover {
+	text-decoration: underline;
+}
+
+.work2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.work2 a:hover {
+	text-decoration: underline;
+}
+
+.work2 {
+	margin: 0 auto 50px;
+	float: center;
+	width: 80%;
+	clear: both;
+}
+
+.contact2 p {
+	padding: 0;
+}
+
+.contact2 {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.contact2 a:hover {
+	text-decoration: underline;
+}
+
+p {
+	padding: 20px;
+	line-height: 150%;
+	text-align: center;
+}
+
+.footer {
+	border-top: 2px solid gray;
+	clear: both;
+}
